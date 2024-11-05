@@ -1,6 +1,25 @@
  # LITA_Project_2024
 
 ### Project Title: Retail Store Sales Analysis
+
+[Introduction](#introduction).
+
+[Project Overview](#project-overview).
+
+[Data Sources](#data-sources)'
+
+[About the Dataset](#about-the-dataset).
+
+[Tools Used](#tools-used).
+
+[Data Cleaning and Preparations](#data-cleaning-and-preparations).
+
+[Exploratory Data Analysis (EDA)](#exploratory-data-analysis)
+
+[Data Analysis](#data-analysis).
+
+[Data Visualization](#data-visualization)
+  
 ---
 ### Introduction
 The world of business thrives on data-driven decisions, and the ability to harness the power of data is essential. In this project, i embark on an exciting journey to analyze sales data, uncover trends, and reveal valuable insights that will drive strategic decision-making. The goal is to extract information from a retail store sales dataset, in order to provide a roadmap for the optimization of sales strategies in achieving sustainable growth.
@@ -86,6 +105,25 @@ Order By Total_Sales Desc
 Select Product, sum (Revenue) as Total_Revenue from [dbo].[Sales Data]
 GROUP By Product
 ```
+---
+### Data Visualization
+
+![Excel Sales visualization](https://github.com/user-attachments/assets/50322d02-2866-489b-9cd7-85504f646f20)
+
+
+
+
+![Sales data visualization with year](https://github.com/user-attachments/assets/81b085a8-da8d-4bb3-9787-c491870e27f5)
+
+
+
+
+![Sales data visualization without year](https://github.com/user-attachments/assets/cb4ec0dd-afb8-46c3-b4f8-fec31fd4ac90)
+
+
+
+
+
 
 
 
