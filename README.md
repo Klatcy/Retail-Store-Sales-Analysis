@@ -2,51 +2,58 @@
 
 ### Project Title: Retail Store Sales Analysis
 
-[Introduction](#introduction).
+[Introduction](#introduction)
 
-[Project Overview](#project-overview).
+[Project Overview](#project-overview)
 
-[Data Sources](#data-sources)'
+[Data Sources](#data-sources)
 
-[About the Dataset](#about-the-dataset).
+[About the Dataset](#about-the-dataset)
 
-[Tools Used](#tools-used).
+[Tools Used](#tools-used)
 
-[Data Cleaning and Preparations](#data-cleaning-and-preparations).
+[Data Cleaning and Preparations](#data-cleaning-and-preparations)
 
 [Exploratory Data Analysis (EDA)](#exploratory-data-analysis)
 
-[Data Analysis](#data-analysis).
+[Data Analysis](#data-analysis)
 
 [Data Visualization](#data-visualization)
   
 ---
 ### Introduction
-The world of business thrives on data-driven decisions, and the ability to harness the power of data is essential. In this project, i embark on an exciting journey to analyze sales data, uncover trends, and reveal valuable insights that will drive strategic decision-making. The goal is to extract information from a retail store sales dataset, in order to provide a roadmap for the optimization of sales strategies in achieving sustainable growth.
+ The world of business thrives on data-driven decisions, and the ability to harness the power of data is essential. In this project, i embark on an exciting journey to analyze Retail Store sales data to uncover trends, and reveal valuable insights that will drive strategic decision-making. In other words, the goal is to extract information from the sales dataset, in order to provide a roadmap for the optimization of sales strategies in achieving sustainable growth.
+ 
+ --- 
+### Project Overview
+This Data Analysis aims at generating insight into the sales perforrmances of a Retail store over the past years. In analyzing the sales data, i seek to extract necessary information from the sales dataset, to provide valuable insights that can guide decision-making process across various aspects of the business. These insights include the identification of sales per product, sales per month, sales per region,  best-selling products, top revenue-generating region among others. This will enable us to tell compelling stories around the data from the insight gotten, to know the best performance from our data and also to enable  the business make informed decisions to optimize operations, enhance marketing efforts, and maximize revenue.
+
 ---
-## Project Overview
-This Data Analysis aims at generating insight into the sales perforrmances of a Retail store over the past years. In analyzing the sales data, i seek to extract necessary information from the sales dataset, to provide valuable insights that can guide decision-making process across various aspects of the business. These insights include the identification of sales per product, sales per month, sales per region,  best-selling products, top revenue-generating region among others. This will enable us to tell compelling stories around our data from the insight gotten, to know the best performance from our data and also to enable  the business make informed decisions to optimize operations, enhance marketing efforts, and maximize revenue. 
----
-###  Data Sources
-Data Sources
+ ###  Data Sources
 The primary source of the Data used here is Sales Data.Csv. This is an open source data that an be freely downloaded from an open source online such as kaggle or any other data repository site.
+ 
 ---
 ### About the Dataset
 The dataset has sales data from 2023 to 2024. It consists originally of 7 columns which was modified further for the purpose of the analysis;
 
-- Order_id: Unique identifier for each order placed by a customer
+- OrderID: Unique identifier for each order placed by a customer
 
-- Customer_id: Unique identifier of each customer
+- CustomerID: Unique identifier of each customer
 
 - Product: Products sold by the store
 
 - Region : Region of each customers
 
-- Order_date: Date the order was placed
+- OrderDate: Date the order was placed
  
 - Quantity: Quantity ordered for each product
 
 - Price Each: Price of each product
+  
+- Total Sales:Total sales gotten for each product
+  
+- Revenue: Revenue generated from the product sold
+  
 ---
 ### Tools Used
 - Microsoft Excel {Download Here}{https://www.microsoft.com}
@@ -59,15 +66,17 @@ The dataset has sales data from 2023 to 2024. It consists originally of 7 column
 - PowerBI for Dynamic and Interactive Data Visualization.
 
 - GitHub for Portfolio Building
+
 ---
 ### Data Cleaning and Preparations.
 In the initial phase of the Data cleaning and preparations, the following actions were performed; 
  1. Data Loading and Inspection
  2. Handling Missing Variables
  3. Data Cleaning and Formatting
+
 ---
 ### Exploratory Data Analysis (EDA)
-EDA involved the exploring of the Data to answer some questions about the Data in order to gain insights.
+EDA involved the exploration of Data to answer some questions about the Data in order to gain insights. The questions are categorized into two, which are: Sales Analysis and Product Analysis.
 #### Sales Analysis
 - What is the total sales per product ? 
 - What is the total sales per month?
@@ -77,34 +86,61 @@ EDA involved the exploring of the Data to answer some questions about the Data i
 - Which product sold the most?
 - Which product are top sellers?
 - What is the average sales per product?
+
 ---
 ### Data Analysis
-This is where i include some basic lines of code or queries or even some of the DAX functions used during the analysis; 
+This is where i include some basic lines of code or queries or even some of the DAX functions used during the analysis.These include
+1. SQL 
 ```SQL
-Select* from [dbo].[Sales Data]
-
+SELECT* FROM [dbo].[Sales Data]
 ```
 - To Retrieve Total Sales for each Product category
 ```SQL
-Select Product, sum (Total_Sales) as Sales_Per_State from [dbo].[Sales Data]
+SELECT Product, SUM (Total_Sales) as Sales_Per_State FROM [dbo].[Sales Data]
 GROUP By Product
 ```
-- Number Of Sales Transaction in each Region
+- To Find the Number of Sales Transaction in each Region
 ```SQL
-Select Region,sum (Total_Sales) as Sales_Transaction from [dbo].[Sales Data]
+SELECT Region, SUM(Total_Sales) as Sales_Transaction FROM [dbo].[Sales Data]
 GROUP By Region
  ```
- - Highest Selling Product By Total Sales Value
+ - To Find the Highest Selling Product by Total Sales Value
 ```SQL
-Select Product, sum (Total_Sales) as Total_Sales from [dbo].[Sales Data]
+SELECT Product, SUM (Total_Sales) as Total_Sales FROM [dbo].[Sales Data]
 GROUP By Product
-Order By Total_Sales Desc
+Order By Total_Sales DESC
 ```
-- Total Revenue By Product
+- To Calculate Total Revenue by Product
 ```SQL
-Select Product, sum (Revenue) as Total_Revenue from [dbo].[Sales Data]
+SELECT Product, SUM (Revenue) as Total_Revenue FROM [dbo].[Sales Data]
 GROUP By Product
 ```
+- To Order Month Column
+```SQL
+ALTER TABLE [dbo].[Sales Data]
+ADD Order_Month Nvarchar(50)
+```
+```SQL
+UPDATE [dbo].[Sales Data]
+SET Order_Month = DATENAME(month, OrderDate)
+```
+```SQL
+ALTER TABLE [dbo].[Sales Data]
+ADD Order_Year INT
+```
+```SQL
+Update [dbo].[Sales Data]
+SET Order_Year = Year (OrderDate)
+```
+- Monthly Sales For The Current Year
+```SQL
+SELECT  Order_Month, SUM (Total_Sales) AS Monthly_Sales FROM [dbo].[Sales Data]
+WHERE Order_Year=2024
+GROUP By Order_Month
+```
+2. PowerBI
+   -
+   
 ---
 ### Data Visualization
 
