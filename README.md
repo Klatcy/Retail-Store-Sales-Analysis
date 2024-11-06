@@ -1,24 +1,25 @@
  # LITA_Project_2024
 
 ### Project Title: Retail Store Sales Analysis
+### Table of Contents
 
-[Introduction](#introduction)
+- [Introduction](#introduction)
 
-[Project Overview](#project-overview)
+- [Project Overview](#project-overview)
 
-[Data Sources](#data-sources)
+- [Data Sources](#data-sources)
 
-[About the Dataset](#about-the-dataset)
+- [About the Dataset](#about-the-dataset)
 
-[Tools Used](#tools-used)
+- [Tools Used](#tools-used)
 
-[Data Cleaning and Preparations](#data-cleaning-and-preparations)
+- [Data Cleaning and Preparations](#data-cleaning-and-preparations)
 
-[Exploratory Data Analysis (EDA)](#exploratory-data-analysis)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis)
 
-[Data Analysis](#data-analysis)
+- [Data Analysis](#data-analysis)
 
-[Data Visualization](#data-visualization)
+- [Data Visualization](#data-visualization)
   
 ---
 ### Introduction
