@@ -91,7 +91,7 @@ EDA involved the exploration of Data to answer some questions about the Data in 
 ---
 ### Data Analysis
 This is where i include some basic lines of code or queries or even some of the DAX functions used during the analysis.These include
-1. SQL 
+- SQL Queries
 ```SQL
 SELECT* FROM [dbo].[Sales Data]
 ```
@@ -139,31 +139,38 @@ SELECT  Order_Month, SUM (Total_Sales) AS Monthly_Sales FROM [dbo].[Sales Data]
 WHERE Order_Year=2024
 GROUP By Order_Month
 ```
-2. PowerBI
-   -
-   
+- PowerBI DAX functions
+1.To count total customers in each region.
+   Conditional coluumn 
+If Region = North then 1,
+If Region = South then 2,
+If Region = West then 3.
+If Region = East then 4,
+Otherwise, 5
 ---
 ### Data Visualization
+- Microsoft Excel Data Visualization
+  
+![Sales Data Pivot Table](https://github.com/user-attachments/assets/65095be0-760f-4e50-92f4-7aa5d8a7b8b6)
+
+![Sales Data Pivot Table 2](https://github.com/user-attachments/assets/d9b40220-c175-43d8-a0c3-94823f496ca2)
+
 
 ![Excel Sales visualization](https://github.com/user-attachments/assets/50322d02-2866-489b-9cd7-85504f646f20)
 
 
 
+- PowerBI Data Visualization
 
 ![Sales data visualization with year](https://github.com/user-attachments/assets/81b085a8-da8d-4bb3-9787-c491870e27f5)
-
 
 
 
 ![Sales data visualization without year](https://github.com/user-attachments/assets/cb4ec0dd-afb8-46c3-b4f8-fec31fd4ac90)
 
 
-![Sales Data Pivot Table](https://github.com/user-attachments/assets/65095be0-760f-4e50-92f4-7aa5d8a7b8b6)
-![Sales Data Pivot Table 2](https://github.com/user-attachments/assets/ee0e8cd9-d072-450f-bc81-6b253c9df6ec)
 
 
-
-![Sales Data Pivot Table 2](https://github.com/user-attachments/assets/d9b40220-c175-43d8-a0c3-94823f496ca2)
 
 
 
