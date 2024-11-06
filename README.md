@@ -140,24 +140,29 @@ WHERE Order_Year=2024
 GROUP By Order_Month
 ```
 - PowerBI DAX functions
-1.To count total customers in each region.
-   Conditional coluumn 
+ 
+ 1.To count total customers in each region.
+   Conditional column 
+   
 If Region = North then 1,
 If Region = South then 2,
 If Region = West then 3.
 If Region = East then 4,
-Otherwise, 5
+Otherwise, 5.
+
 ---
 ### Data Visualization
 - Microsoft Excel Data Visualization
   
 ![Sales Data Pivot Table](https://github.com/user-attachments/assets/65095be0-760f-4e50-92f4-7aa5d8a7b8b6)
+- The above pivot table shows the report of Total Sales by Product, Region and Month, Top 3 Sales by Product and Average Sales per Product.
 
 ![Sales Data Pivot Table 2](https://github.com/user-attachments/assets/d9b40220-c175-43d8-a0c3-94823f496ca2)
+- The above pivot table shows the report of Average sales per Product, Total Revenue by Region, Total Monthly Sales for Year 2023 and 2024 and Percentage of Total Sale.
 
 
 ![Excel Sales visualization](https://github.com/user-attachments/assets/50322d02-2866-489b-9cd7-85504f646f20)
-
+- In analysing the data sales, column chart, pie chart, bar chart and line was used to analyse the sales performance of the retail store.
 
 
 - PowerBI Data Visualization
@@ -169,7 +174,11 @@ Otherwise, 5
 ![Sales data visualization without year](https://github.com/user-attachments/assets/cb4ec0dd-afb8-46c3-b4f8-fec31fd4ac90)
 
 
+### Conclusion
 
+
+### Recommendation
+In the light of the analysis carried out, the following recommendations were made;
 
 
 
