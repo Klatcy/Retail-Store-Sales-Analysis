@@ -158,9 +158,12 @@ GROUP By Order_Month
 ![Sales data visualization without year](https://github.com/user-attachments/assets/cb4ec0dd-afb8-46c3-b4f8-fec31fd4ac90)
 
 
+![Sales Data Pivot Table](https://github.com/user-attachments/assets/65095be0-760f-4e50-92f4-7aa5d8a7b8b6)
+![Sales Data Pivot Table 2](https://github.com/user-attachments/assets/ee0e8cd9-d072-450f-bc81-6b253c9df6ec)
 
 
 
+![Sales Data Pivot Table 2](https://github.com/user-attachments/assets/d9b40220-c175-43d8-a0c3-94823f496ca2)
 
 
 
