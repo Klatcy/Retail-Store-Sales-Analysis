@@ -1,4 +1,4 @@
-
+### LITA_PROJECT 2024
 
 ### Project Title: Retail Store Sales Analysis
 ### Table of Contents
@@ -184,6 +184,13 @@ Otherwise, 5.
 
 
 ### Conclusion
+
+#### Overall Sales Trend
+- The total sales by product is 2,101,090 million. Shoe recorded the highest sale with a total of 613,380 thousand, which is  , while Socks with a total of 180,000 thousand which  is    of the total sales recorded the lowest sales generated.
+  
+- The region with the highest total sales is South with 927,820 thousand, while West with a total of 300,345 thousand recorded the lowest sale by region.
+
+- The most productive month
 
 
 
