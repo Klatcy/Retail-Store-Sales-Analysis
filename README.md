@@ -1,4 +1,4 @@
-### LITA_PROJECT 2024
+ ### LITA_PROJECT 2024
 
 ### Project Title: Retail Store Sales Analysis
 ### Table of Contents
@@ -190,9 +190,15 @@ Otherwise, 5.
   
 - The region with the highest total sales is South with 927,820 thousand, while West with a total of 300,345 thousand recorded the lowest sale by region.
 
-- The most productive month
+- The most productive month is February with a total sales of 546,300K. While has the least sale from January 2023 to August 2024.
 
+- The top performing product is Shoes which generated total sale of 613,380K, while the least performing product is Socks which generated a total sale of of180,785K.
 
+- The Average Sales by Product is 211.78
+
+- The Total Revenue is 2,101,090K
+
+- The total number of customers in all the region is 9921. North region has 
 
 
 ### Recommendation
