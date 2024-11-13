@@ -156,16 +156,19 @@ Otherwise, 5.
 #### Microsoft Excel Data Visualization
 
   
-![Sales Performance Pivot Table New](https://github.com/user-attachments/assets/63ce954e-c006-47d6-af35-6a43ddf080c3)
+![Sales Pivot Table 1](https://github.com/user-attachments/assets/68035b42-bdbb-49d1-b1cb-d2fda9fa5175)
+
 
 
 - The above pivot table shows the report of Total Sales by Product, Region and Month, Top 3 Sales by Product and Average Sales per Product
 
 
-![Sales Performance Pivot Table 2](https://github.com/user-attachments/assets/3ff07b9c-7ad4-46ab-a9ad-2d81517f9030)
+![Sales Pivot Table 2](https://github.com/user-attachments/assets/54e36e13-562d-412a-ac11-de161de954d0)
+
 
 - The above pivot table shows the report of Average sales per Product, Total Revenue by Region, Total Monthly Sales for Year 2023 and 2024 and Percentage of Total Sale.
 
+  
  ![Excel Sales Visual](https://github.com/user-attachments/assets/57bdc445-703f-4051-b2b5-1bc4a9799025)
  
 
