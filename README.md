@@ -27,7 +27,7 @@
  
  --- 
 ### Project Overview
-This Data Analysis aims at generating insight into the sales perforrmances of a Retail store over the past years. In analyzing the sales data, i seek to extract necessary information from the sales dataset, to provide valuable insights that can guide decision-making process across various aspects of the business. These insights include the identification of sales per product, sales per month, sales per region,  best-selling products, top revenue-generating region among others. This will enable us to tell compelling stories around the data from the insight gotten, to know the best performance from our data and also to enable  the business make informed decisions to optimize operations, enhance marketing efforts, and maximize revenue.
+This Data Analysis aims at generating insight into the sales performances of a Retail store over the past years. In analyzing the sales data, i seek to extract necessary information from the sales dataset, to provide valuable insights that can guide decision-making process across various aspects of the business. These insights include the identification of sales per product, sales per month, sales per region,  best-selling products, top revenue-generating region among others. This will enable us to tell compelling stories around the data from the insight gotten, to know the best performance from our data and also to enable  the business make informed decisions to optimize operations, enhance marketing efforts, and maximize revenue.
 
 ---
  ###  Data Sources
@@ -206,7 +206,7 @@ Otherwise, 5.
 ### Recommendation
 In the light of the analysis carried out, the following recommendations are made:
 
-## Product-wise Recommendations:
+#### Product-wise Recommendations:
 
  - Focus on Shoes: Continue investing in Shoes, as they're top-selling products.
 -Improve Socks Sales: Analyze reasons for low Socks sales and consider:
@@ -214,7 +214,7 @@ In the light of the analysis carried out, the following recommendations are made
     - Product redesign
     - Promotions
 
-## Region-wise Recommendations:
+#### Region-wise Recommendations:
 
 - Expand South Region Strategy: Replicate successful strategies from South region in other regions.
 - Boost West Region Sales: Identify challenges in West region and develop targeted strategies.
@@ -224,12 +224,12 @@ In the light of the analysis carried out, the following recommendations are made
 - Analyze February's Success: Identify factors contributing to February's high sales and leverage them in other months.
 - Improve January Sales: Develop strategies to boost sales in January.
 
-## General Recommendations:
+#### General Recommendations:
 
 - Data-driven Decision Making: Use data insights to inform product, marketing, and regional strategies.
 - Customer Engagement: With 9921 customers, focus on enhancing customer experience and loyalty.
 
-## Actionable Steps:
+#### Actionable Steps:
 
 - Conduct market research to understand customer preferences.
 - Develop targeted marketing campaigns for Socks and West region.
