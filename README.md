@@ -1,4 +1,4 @@
- ### LITA Project 
+ ### LITA Project
 
 ### Project Title: Retail Store Sales Analysis
 ### Table of Contents
