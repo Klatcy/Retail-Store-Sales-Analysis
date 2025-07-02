@@ -1,4 +1,4 @@
- ### LITA_PROJECT 2024
+ ### Retail  Store Sales Analysis 
 
 ### Project Title: Retail Store Sales Analysis
 ### Table of Contents
